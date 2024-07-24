@@ -33,9 +33,16 @@ mat-toolbar {
 
 .header-content {
   text-align: center;
-  padding: 20px;
+  padding: 100px 20px;
   z-index: 10;
   position: relative;
+  background: url('../../assets/landing.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh; /* Make the header content take the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-content h1 {
@@ -47,46 +54,151 @@ mat-toolbar {
 }
 
 .header-content button {
-  color: black; /* Ensure button text is white */
+  color: black; /* Ensure button text is black */
 }
 
-.background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  overflow: hidden;
+.soluciones-inteligentes {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+  color: #333;
+  text-align: center;
 }
 
-.background-img {
+.soluciones-inteligentes h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.soluciones-inteligentes h2 span {
+  color: #003399; /* Adjust color as needed */
+}
+
+.soluciones-inteligentes .content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.soluciones-inteligentes .unidad-negocio, .soluciones-inteligentes .servicios-logisticos {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.soluciones-inteligentes h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.soluciones-inteligentes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.soluciones-inteligentes li {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.soluciones-inteligentes button {
+  margin-top: 10px;
+  background-color: #003399; /* Adjust color as needed */
+  color: white;
+}
+
+/* Styles for Atención al Cliente */
+.atencion-cliente {
+  padding: 50px 20px;
+  background-color: #fff;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.atencion-cliente h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.atencion-cliente p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contacto-consulta {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contactos, .mapa {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contactos h3, .mapa h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contacto-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contacto-item i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.contacto-item h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+contacto-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.mapa iframe {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
+  height: 450px;
+  border: 0;
+}
+
+.horario-atencion {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.horario-atencion h3 {
+  margin-bottom: 10px;
+}
+
+.horario-atencion p {
+  margin: 5px 0;
+}
+
+/* Styles for Footer */
+footer {
+  background-color: #003399; /* Adjust background color as needed */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-  }
-
-  .header-content h1 {
-    font-size: 1.5em;
-  }
-
-  .header-content p {
-    font-size: 1em;
-  }
-
-  .header-content button {
-    font-size: 0.875em;
+  .soluciones-inteligentes .unidad-negocio, .soluciones-inteligentes .servicios-logisticos {
+    width: 100%;
   }
 }
 
