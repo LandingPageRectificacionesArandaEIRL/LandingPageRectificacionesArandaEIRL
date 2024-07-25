@@ -5,7 +5,7 @@ body, html {
   box-sizing: border-box;
   font-family: Arial, sans-serif;
   height: 100%;
-  color: white; /* Define color for all text elements */
+  color: #03045E; /* Color de texto general */
 }
 
 mat-toolbar {
@@ -15,7 +15,7 @@ mat-toolbar {
   padding: 0 20px;
   z-index: 10;
   position: relative;
-  background: rgba(0, 0, 0, 0.7); /* Adjust background for contrast */
+  background: rgba(0, 0, 0, 0.7); /* Ajuste de contraste */
 }
 
 .logo-img {
@@ -28,7 +28,7 @@ mat-toolbar {
 }
 
 .nav-links a {
-  color: white; /* Ensure nav links are white */
+  color: #CAF0F8; /* Color de los enlaces de navegación */
 }
 
 .header-content {
@@ -38,7 +38,7 @@ mat-toolbar {
   position: relative;
   background: url('../../assets/landing.png') no-repeat center center;
   background-size: cover;
-  height: 100vh; /* Make the header content take the full viewport height */
+  height: 100vh; /* Altura completa del viewport */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,21 +46,21 @@ mat-toolbar {
 }
 
 .header-content h1 {
-  color: white; /* Ensure header text is white */
+  color: #CAF0F8; /* Color del texto del encabezado */
 }
 
 .header-content p {
-  color: white; /* Ensure paragraph text is white */
+  color: #CAF0F8; /* Color del texto del párrafo */
 }
 
 .header-content button {
-  color: black; /* Ensure button text is black */
+  color: #03045E; /* Color del texto del botón */
 }
 
 .soluciones-inteligentes {
   padding: 50px 20px;
-  background-color: #f8f9fa;
-  color: #333;
+  background-color: #E0F7FA;
+  color: #03045E;
   text-align: center;
 }
 
@@ -70,17 +70,22 @@ mat-toolbar {
 }
 
 .soluciones-inteligentes h2 span {
-  color: #003399; /* Adjust color as needed */
+  color: #0077B6; /* Color del texto destacado */
 }
 
 .soluciones-inteligentes .content {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .soluciones-inteligentes .unidad-negocio, .soluciones-inteligentes .servicios-logisticos {
   width: 45%;
+  background: #CAF0F8; /* Color de fondo de los cuadros */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 
@@ -101,18 +106,27 @@ mat-toolbar {
 
 .soluciones-inteligentes button {
   margin-top: 10px;
-  background-color: #003399; /* Adjust color as needed */
-  color: white;
+  background-color: #0077B6; /* Color de fondo del botón */
+  color: #CAF0F8;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.soluciones-inteligentes button:hover {
+  background-color: #00B4D8;
+  color: #03045E;
 }
 
 /* Styles for Atención al Cliente */
 .atencion-cliente {
   padding: 50px 20px;
-  background-color: #fff;
-  color: #333;
+  background-color: #E0F7FA;
+  color: #03045E;
   max-width: 1200px;
   margin: 0 auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .atencion-cliente h2 {
@@ -151,6 +165,7 @@ mat-toolbar {
 .contacto-item i {
   font-size: 24px;
   margin-right: 10px;
+  color: #0077B6; /* Color de los íconos */
 }
 
 .contacto-item h4 {
@@ -158,7 +173,7 @@ mat-toolbar {
   font-size: 16px;
 }
 
-contacto-item p {
+.contacto-item p {
   margin: 0;
   font-size: 14px;
   color: #555;
@@ -166,7 +181,7 @@ contacto-item p {
 
 .mapa iframe {
   width: 100%;
-  height: 450px;
+  height: 300px; /* Ajuste del tamaño del mapa */
   border: 0;
 }
 
@@ -185,13 +200,41 @@ contacto-item p {
 
 /* Styles for Footer */
 footer {
-  background-color: #003399; /* Adjust background color as needed */
-  color: white;
+  background-color: #03045E; /* Color de fondo del pie de página */
+  color: #CAF0F8;
   text-align: center;
   padding: 20px 0;
 }
 
 footer p {
+  margin: 0;
+}
+
+/* Styles for WhatsApp Button */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366; /* Color de fondo de WhatsApp */
+  color: white;
+  border-radius: 50%;
+  width: 80px; /* Tamaño del botón */
+  height: 80px; /* Tamaño del botón */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-size: 32px; /* Tamaño del ícono */
+  z-index: 1000; /* Asegura que esté por encima de todo */
+  transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E; /* Color de fondo de WhatsApp en hover */
+}
+
+.whatsapp-button i {
   margin: 0;
 }
 
