@@ -8,53 +8,66 @@ body, html {
   color: #03045E; /* Color de texto general */
 }
 
-mat-toolbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  z-index: 10;
-  position: relative;
-  background: rgba(0, 0, 0, 0.7); /* Ajuste de contraste */
-}
-
-.logo-img {
-  max-height: 40px;
-}
-
-.nav-links {
-  display: flex;
-  gap: 10px;
-}
-
-.nav-links a {
-  color: #CAF0F8; /* Color de los enlaces de navegación */
-}
-
 .header-content {
   text-align: center;
   padding: 100px 20px;
   z-index: 10;
   position: relative;
-  background: url('../../assets/landing.png') no-repeat center center;
+  background: url('../../assets/landing2.png') no-repeat center center;
   background-size: cover;
   height: 100vh; /* Altura completa del viewport */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Caudex', serif; /* Aplicar la fuente Caudex */
 }
 
 .header-content h1 {
   color: #CAF0F8; /* Color del texto del encabezado */
+  font-size: 4em; /* Tamaño de fuente inicial */
+  margin: 0;
+  line-height: 1.2; /* Espaciado entre líneas */
+  word-break: break-word; /* Ajustar palabras largas */
 }
 
 .header-content p {
   color: #CAF0F8; /* Color del texto del párrafo */
+  font-size: 1.5em; /* Tamaño de fuente inicial */
+  margin-top: 20px;
+  word-break: break-word; /* Ajustar palabras largas */
 }
 
 .header-content button {
-  color: #03045E; /* Color del texto del botón */
+  font-size: 1.2em; /* Tamaño del botón */
+  margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-content h1 {
+    font-size: 3em; /* Tamaño más pequeño para pantallas medianas */
+  }
+
+  .header-content p {
+    font-size: 1.2em; /* Tamaño más pequeño para pantallas medianas */
+  }
+}
+
+@media (max-width: 480px) {
+  .header-content h1 {
+    font-size: 2.5em; /* Tamaño aún más pequeño para pantallas pequeñas */
+    margin: 0;
+  }
+
+  .header-content p {
+    font-size: 1em; /* Tamaño más pequeño para pantallas pequeñas */
+    margin-top: 10px;
+  }
+
+  .header-content button {
+    font-size: 1em; /* Tamaño del botón para pantallas pequeñas */
+  }
 }
 
 .soluciones-inteligentes {
@@ -124,8 +137,7 @@ mat-toolbar {
   padding: 50px 20px;
   background-color: #E0F7FA;
   color: #03045E;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%; /* Asegura que ocupe todo el ancho de la pantalla */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -141,7 +153,7 @@ mat-toolbar {
 
 .contacto-consulta {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; /* Espacio entre los bloques */
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -149,34 +161,33 @@ mat-toolbar {
 .contactos, .mapa {
   flex: 1;
   min-width: 300px;
+  text-align: center; /* Centra el contenido dentro de los bloques */
 }
 
-.contactos h3, .mapa h3 {
-  text-align: center;
+.contactos {
+  max-width: 600px; /* Limita el ancho máximo del bloque */
+  margin: 0 auto; /* Centra el bloque */
+}
+
+.contactos h3 {
+  text-align: center; /* Centra el título dentro del bloque */
   margin-bottom: 20px;
 }
 
 .contacto-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-.contacto-item i {
-  font-size: 24px;
-  margin-right: 10px;
-  color: #0077B6; /* Color de los íconos */
-}
-
-.contacto-item h4 {
-  margin: 0;
-  font-size: 16px;
+  text-align: left; /* Alinea el texto a la izquierda dentro del bloque */
+  margin: 0 auto; /* Centra el contenido del ítem */
+  max-width: 80%; /* Limita el ancho del contenido para centrado */
 }
 
 .contacto-item p {
-  margin: 0;
   font-size: 14px;
   color: #555;
+}
+
+.mapa {
+  max-width: 600px; /* Limita el ancho máximo del bloque */
+  margin: 0 auto; /* Centra el bloque */
 }
 
 .mapa iframe {
@@ -196,18 +207,6 @@ mat-toolbar {
 
 .horario-atencion p {
   margin: 5px 0;
-}
-
-/* Styles for Footer */
-footer {
-  background-color: #03045E; /* Color de fondo del pie de página */
-  color: #CAF0F8;
-  text-align: center;
-  padding: 20px 0;
-}
-
-footer p {
-  margin: 0;
 }
 
 /* Styles for WhatsApp Button */
@@ -236,29 +235,4 @@ footer p {
 
 .whatsapp-button i {
   margin: 0;
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
-  .soluciones-inteligentes .unidad-negocio, .soluciones-inteligentes .servicios-logisticos {
-    width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  .logo-img {
-    max-height: 30px;
-  }
-
-  .header-content h1 {
-    font-size: 1.2em;
-  }
-
-  .header-content p {
-    font-size: 0.875em;
-  }
-
-  .header-content button {
-    font-size: 0.75em;
-  }
 }

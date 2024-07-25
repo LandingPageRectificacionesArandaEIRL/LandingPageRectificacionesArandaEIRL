@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <div class="logo">
+    <img src="./assets/logo.png" alt="SCE Logo" class="logo-img">
+  </div>
+  <span class="spacer"></span>
+  <nav class="nav-links">
+    <a mat-button routerLink="/">INICIO</a>
+    <a mat-button routerLink="/quienes-somos">QUIÉNES SOMOS</a>
+    <a mat-button routerLink="/soluciones">SERVICIOS</a>
+    <a mat-button routerLink="/articulos">VENTAS</a>
+    <a mat-button routerLink="/portafolio">NOVEDADES</a>
+    <a mat-button routerLink="/contacto">CONTÁCTANOS</a>
+  </nav>
+  <button mat-icon-button class="menu-icon" (click)="toggleMenu()">
+    <mat-icon>menu</mat-icon>
+  </button>
+</mat-toolbar>

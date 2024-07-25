@@ -1,0 +1,63 @@
+/* General styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  color: #03045E; /* Color de texto general */
+}
+
+/* Toolbar styles */
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  z-index: 1000; /* Ensure it's above other elements */
+  position: absolute; /* Absolute position to stay above the landing image */
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+.logo-img {
+  max-height: 80px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap; /* Ensure wrapping if needed */
+}
+
+.nav-links a {
+  color: #ffffff; /* Navigation links color */
+}
+
+.menu-icon {
+  color: #ffffff;
+  display: none; /* Hidden by default */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide nav links on small screens */
+    width: 100%; /* Ensure full width */
+    position: absolute;
+    top: 56px; /* Toolbar height */
+    left: 0;
+    background: rgba(0, 0, 0, 0.9); /* Background color for dropdown */
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .menu-icon {
+    display: block; /* Show menu icon on small screens */
+  }
+
+  .nav-links.active {
+    display: flex; /* Show nav links when active */
+  }
+}
