@@ -17,7 +17,7 @@ mat-toolbar {
   z-index: 1000; /* Ensure it's above other elements */
   position: absolute; /* Absolute position to stay above the landing image */
   width: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  background-color: #03045E;
 }
 
 .logo-img {
