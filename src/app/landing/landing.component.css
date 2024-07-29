@@ -29,7 +29,7 @@ body, html {
 }
 
 .header-content h1 {
-  color: #CAF0F8; /* Color del texto del encabezado */
+  color: #0003ff; /* Color del texto del encabezado */
   font-size: 4em; /* Tamaño de fuente inicial */
   margin: 0;
   line-height: 1.2; /* Espaciado entre líneas */
@@ -37,7 +37,7 @@ body, html {
 }
 
 .header-content p {
-  color: #CAF0F8; /* Color del texto del párrafo */
+  color: #0002ff; /* Color del texto del párrafo */
   font-size: 1.5em; /* Tamaño de fuente inicial */
   margin-top: 20px;
   word-break: break-word; /* Ajustar palabras largas */
