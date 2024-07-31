@@ -20,6 +20,10 @@ body, html {
   color: #03045E;
   width: 100%; /* Asegura que ocupe todo el ancho de la pantalla */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 100vh; /* Asegura que ocupe toda la altura del viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .atencion-cliente h2 {
@@ -120,9 +124,13 @@ body, html {
 
 /* Misión y Visión */
 .mision-vision, .valores {
-  padding: 90px 20px 0 20px; /* Ajusta el padding-bottom a 0 */
+  padding: 90px 20px;
   background-color: #E0F7FA;
   color: #03045E;
+  min-height: 100vh; /* Asegura que ocupe toda la altura del viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contenedor {
@@ -133,7 +141,7 @@ body, html {
 .mision-vision-item {
   display: flex;
   align-items: center;
-  margin-bottom: 0; /* Elimina el espacio en la parte inferior */
+  margin-bottom: 40px;
 }
 
 .mision-vision-imagen {
@@ -159,9 +167,8 @@ body, html {
 
 .valores-fila {
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px; /* Añade espacio entre los elementos */
 }
 
 .valor {
