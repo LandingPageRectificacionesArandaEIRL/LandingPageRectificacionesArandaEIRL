@@ -1,0 +1,62 @@
+/* Ajusta el estilo del contenedor del diálogo */
+::ng-deep .mat-dialog-container {
+  width: 90vw; /* Ancho del diálogo como un porcentaje del ancho de la ventana */
+  max-width: 1200px; /* Máximo ancho del diálogo */
+  height: auto; /* Altura automática para ajustar el contenido */
+  max-height: 90vh; /* Máxima altura del diálogo como un porcentaje de la altura de la ventana */
+  overflow: auto; /* Agrega barras de desplazamiento si el contenido es demasiado grande */
+  padding: 90px; /* Espaciado adicional alrededor del contenido */
+  box-sizing: border-box; /* Incluye el padding en el cálculo del ancho */
+}
+
+/* Estilo para el título del diálogo */
+.dialog-title {
+  font-family: 'Caudex', serif; /* Tipo de fuente */
+  font-size: 48px; /* Tamaño de fuente para el título */
+  font-weight: bold;
+  color: #333; /* Color del texto */
+  margin: 0;
+  padding: 16px; /* Espaciado alrededor del título */
+  background-color: #007bff; /* Color de fondo del título */
+  color: white; /* Color del texto del título */
+  border-bottom: 2px solid #ddd; /* Línea visible debajo del título */
+  text-align: center; /* Centra el texto del título */
+}
+
+/* Estilo para el contenido del diálogo */
+.dialog-content {
+  font-family: 'Caudex', serif; /* Tipo de fuente */
+  font-size: 24px; /* Tamaño de fuente para el contenido */
+  line-height: 1.6;
+  padding: 16px; /* Espaciado alrededor del contenido */
+  color: #333; /* Color del texto */
+}
+
+/* Elimina márgenes innecesarios en los párrafos */
+.dialog-content p {
+  margin: 0;
+}
+
+/* Estilo para las acciones del diálogo */
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end; /* Alinea el botón al final */
+  padding: 8px 16px; /* Espaciado alrededor de las acciones */
+  background-color: #f1f1f1; /* Color de fondo más claro */
+}
+
+/* Estilo para el botón de cerrar */
+.close-button {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  font-weight: bold;
+  border-radius: 12px; /* Bordes redondeados */
+  padding: 12px 24px; /* Tamaño del botón */
+  font-size: 20px; /* Tamaño de fuente para el botón */
+  transition: background-color 0.3s ease; /* Efecto de transición para el hover */
+}
+
+/* Estilo para el botón de cerrar al pasar el mouse */
+.close-button:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
