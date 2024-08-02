@@ -3,14 +3,18 @@ import {FooterComponent} from "../footer/footer.component";
 import {HeaderComponent} from "../header/header.component";
 import {MatDialog} from "@angular/material/dialog";
 import {ServiceDialogComponent} from "../service-dialog/service-dialog.component";
+import {AttentionClientComponent} from "../attention-client/attention-client.component";
+import {WhatsappButtonComponent} from "../whatsapp-button/whatsapp-button.component";
 
 @Component({
   selector: 'app-servicios',
   standalone: true,
-    imports: [
-        FooterComponent,
-        HeaderComponent
-    ],
+  imports: [
+    FooterComponent,
+    HeaderComponent,
+    AttentionClientComponent,
+    WhatsappButtonComponent
+  ],
   templateUrl: './servicios.component.html',
   styleUrl: './servicios.component.css'
 })

@@ -1,126 +1,6 @@
-/* Normalización general */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; /* Asegura que el padding y el border no afecten el ancho del elemento */
-}
-
-body, html {
-  font-family: Arial, sans-serif;
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-  color: #03045E;
-}
-
-/* Styles for Atención al Cliente */
-.atencion-cliente {
-  padding: 50px 20px;
-  background-color: #E0F7FA;
-  color: #03045E;
-  width: 100%; /* Asegura que ocupe todo el ancho de la pantalla */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.atencion-cliente h2 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.atencion-cliente p {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.contacto-consulta {
-  display: flex;
-  justify-content: space-between; /* Espacio entre los bloques */
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.contactos, .mapa {
-  flex: 1;
-  min-width: 300px;
-  text-align: center; /* Centra el contenido dentro de los bloques */
-}
-
-.contactos {
-  max-width: 600px; /* Limita el ancho máximo del bloque */
-  margin: 0 auto; /* Centra el bloque */
-}
-
-.contactos h3 {
-  text-align: center; /* Centra el título dentro del bloque */
-  margin-bottom: 20px;
-}
-
-.contacto-item {
-  text-align: left; /* Alinea el texto a la izquierda dentro del bloque */
-  margin: 0 auto; /* Centra el contenido del ítem */
-  max-width: 80%; /* Limita el ancho del contenido para centrado */
-}
-
-.contacto-item p {
-  font-size: 14px;
-  color: #555;
-}
-
-.mapa {
-  max-width: 600px; /* Limita el ancho máximo del bloque */
-  margin: 0 auto; /* Centra el bloque */
-}
-
-.mapa iframe {
-  width: 100%;
-  height: 300px; /* Ajuste del tamaño del mapa */
-  border: 0;
-}
-
-.horario-atencion {
-  text-align: center;
-  margin-top: 30px;
-}
-
-.horario-atencion h3 {
-  margin-bottom: 10px;
-}
-
-.horario-atencion p {
-  margin: 5px 0;
-}
-
-/* Styles for WhatsApp Button */
-.whatsapp-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25D366; /* Color de fondo de WhatsApp */
-  color: white;
-  border-radius: 50%;
-  width: 80px; /* Tamaño del botón */
-  height: 80px; /* Tamaño del botón */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-decoration: none;
-  font-size: 32px; /* Tamaño del ícono */
-  z-index: 1000; /* Asegura que esté por encima de todo */
-  transition: background-color 0.3s;
-}
-
-.whatsapp-button:hover {
-  background-color: #128C7E; /* Color de fondo de WhatsApp en hover */
-}
-
-.whatsapp-button i {
-  margin: 0;
-}
-
 /* Misión y Visión */
 .mision-vision, .valores {
-  padding: 90px 20px 0 20px; /* Ajusta el padding-bottom a 0 */
+  padding: 90px 20px 0 20px;
   background-color: #E0F7FA;
   color: #03045E;
 }
@@ -133,7 +13,7 @@ body, html {
 .mision-vision-item {
   display: flex;
   align-items: center;
-  margin-bottom: 0; /* Elimina el espacio en la parte inferior */
+  margin-bottom: 0;
 }
 
 .mision-vision-imagen {
@@ -159,23 +39,29 @@ body, html {
 
 .valores-fila {
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
+  justify-content: center;
+  gap: 20px;
   flex-wrap: wrap;
-  gap: 20px; /* Añade espacio entre los elementos */
 }
 
 .valor {
   display: flex;
-  flex-direction: column; /* Alinea verticalmente los hijos */
-  align-items: center; /* Centra los hijos horizontalmente */
-  max-width: 300px; /* Ancho máximo para cada valor */
-  width: calc(25% - 20px); /* Ajusta el ancho para cuatro valores por fila */
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+  flex: 1;
   margin: 10px;
   background: #CAF0F8;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Centra el texto dentro de cada valor */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.valor:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .valor i {
@@ -184,18 +70,31 @@ body, html {
   color: #0077B6;
 }
 
-.contenedor h2 {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
 .valor h3 {
   margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #0077B6; /* Estilo único */
 }
 
 .valor p {
   font-size: 0.9em;
   color: #555;
+}
+
+.contenedor h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Responsivo */
+@media (max-width: 1024px) {
+  .valores-fila {
+    justify-content: center;
+  }
+
+  .valor {
+    max-width: 200px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -210,11 +109,16 @@ body, html {
   }
 
   .mision-vision-imagen {
-    order: 2; /* Coloca la imagen debajo del texto en pantallas pequeñas */
+    order: 2;
   }
 
   .mision {
-    order: 1; /* Asegura que el texto de Misión esté arriba en pantallas pequeñas */
+    order: 1;
+  }
+
+  .valores-fila {
+    flex-direction: column;
+    align-items: center;
   }
 
   .valor {

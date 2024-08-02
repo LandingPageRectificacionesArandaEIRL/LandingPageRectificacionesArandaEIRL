@@ -1,0 +1,56 @@
+import {Component, OnInit} from '@angular/core';
+import {HeaderComponent} from "../header/header.component";
+import {FooterComponent} from "../footer/footer.component";
+import {ProductService} from "../../services/product/product.service";
+import {ActivatedRoute} from "@angular/router";
+import {NgForOf} from "@angular/common";
+
+@Component({
+  selector: 'app-products',
+  standalone: true,
+  imports: [
+    HeaderComponent,
+    FooterComponent,
+    NgForOf
+  ],
+  templateUrl: './products.component.html',
+  styleUrl: './products.component.css'
+})
+export class ProductsComponent implements OnInit{
+  category: string | null = null;
+  products: any[] = [];
+
+  constructor(
+    private route: ActivatedRoute,
+    private productService: ProductService
+  ) { }
+  downloadCatalog() {
+    // Aquí puedes poner la lógica para descargar el catálogo.
+    window.open('path/to/catalog.pdf', '_blank');
+  }
+  ngOnInit(): void {
+    this.route.paramMap.subscribe(params => {
+      this.category = params.get('category');
+      if (this.category) {
+        this.loadProducts();
+      }
+    });
+  }
+
+  loadProducts(): void {
+    if (this.category) {
+      this.productService.getProductsByCategory(this.category).subscribe(data => {
+        this.products = data;
+      });
+    }
+  }
+
+  formatCategoryTitle(category: string | null): string {
+    if (category) {
+      return category
+        .replace(/-/g, ' ')
+        .replace(/\b\w/g, char => char.toUpperCase());
+    }
+    return '';
+  }
+}

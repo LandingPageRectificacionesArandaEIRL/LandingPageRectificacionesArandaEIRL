@@ -1,0 +1,17 @@
+<app-header></app-header>
+
+<section class="products">
+  <div class="product-header">
+    <h1>{{  formatCategoryTitle(category) }}</h1>
+    <button (click)="downloadCatalog()">Descargar Catálogo Completo</button>
+  </div>
+
+  <div class="product-grid">
+    <div *ngFor="let product of products" class="product-card">
+      <img [src]="product.imageUrl" alt="{{ product.name }}">
+      <h3>{{ product.name }}</h3>
+    </div>
+  </div>
+</section>
+
+<app-footer></app-footer>

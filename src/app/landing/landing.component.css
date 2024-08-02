@@ -1,18 +1,3 @@
-/* Normalización general */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; /* Asegura que el padding y el border no afecten el ancho del elemento */
-}
-
-body, html {
-  font-family: Arial, sans-serif;
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-  color: #03045E;
-}
-
 .header-content {
   text-align: center;
   padding: 100px 20px;
@@ -29,50 +14,25 @@ body, html {
 }
 
 .header-content h1 {
-  color: #0003ff; /* Color del texto del encabezado */
-  font-size: 4em; /* Tamaño de fuente inicial */
+  color: #E0F7FA; /* Color del texto del encabezado */
+  font-size: 3em; /* Tamaño de fuente inicial */
   margin: 0;
   line-height: 1.2; /* Espaciado entre líneas */
+  font-weight: bold;
   word-break: break-word; /* Ajustar palabras largas */
 }
 
 .header-content p {
-  color: #0002ff; /* Color del texto del párrafo */
+  color: #E0F7FA; /* Color del texto del párrafo */
   font-size: 1.5em; /* Tamaño de fuente inicial */
   margin-top: 20px;
+  font-weight: bold;
   word-break: break-word; /* Ajustar palabras largas */
 }
 
 .header-content button {
   font-size: 1.2em; /* Tamaño del botón */
   margin-top: 20px;
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
-  .header-content h1 {
-    font-size: 3em; /* Tamaño más pequeño para pantallas medianas */
-  }
-
-  .header-content p {
-    font-size: 1.2em; /* Tamaño más pequeño para pantallas medianas */
-  }
-}
-
-@media (max-width: 480px) {
-  .header-content h1 {
-    font-size: 2.5em; /* Tamaño aún más pequeño para pantallas pequeñas */
-    margin: 0;
-  }
-
-  .header-content p {
-    font-size: 1em; /* Tamaño más pequeño para pantallas pequeñas */
-    margin-top: 10px;
-  }
-
-  .header-content button {
-    font-size: 1em; /* Tamaño del botón para pantallas pequeñas */
-  }
 }
 
 .soluciones-inteligentes {
@@ -137,109 +97,30 @@ body, html {
   color: #03045E;
 }
 
-/* Styles for Atención al Cliente */
-.atencion-cliente {
-  padding: 50px 20px;
-  background-color: #E0F7FA;
-  color: #03045E;
-  width: 100%; /* Asegura que ocupe todo el ancho de la pantalla */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-content h1 {
+    font-size: 3em; /* Tamaño más pequeño para pantallas medianas */
+  }
+
+  .header-content p {
+    font-size: 1.2em; /* Tamaño más pequeño para pantallas medianas */
+  }
 }
 
-.atencion-cliente h2 {
-  text-align: center;
-  margin-bottom: 10px;
-}
+@media (max-width: 480px) {
+  .header-content h1 {
+    font-size: 2.5em; /* Tamaño aún más pequeño para pantallas pequeñas */
+    margin: 0;
+  }
 
-.atencion-cliente p {
-  text-align: center;
-  margin-bottom: 30px;
-}
+  .header-content p {
+    font-size: 1em; /* Tamaño más pequeño para pantallas pequeñas */
+    margin-top: 10px;
+  }
 
-.contacto-consulta {
-  display: flex;
-  justify-content: space-between; /* Espacio entre los bloques */
-  flex-wrap: wrap;
-  gap: 20px;
+  .header-content button {
+    font-size: 1em; /* Tamaño del botón para pantallas pequeñas */
+  }
 }
-
-.contactos, .mapa {
-  flex: 1;
-  min-width: 300px;
-  text-align: center; /* Centra el contenido dentro de los bloques */
-}
-
-.contactos {
-  max-width: 600px; /* Limita el ancho máximo del bloque */
-  margin: 0 auto; /* Centra el bloque */
-}
-
-.contactos h3 {
-  text-align: center; /* Centra el título dentro del bloque */
-  margin-bottom: 20px;
-}
-
-.contacto-item {
-  text-align: left; /* Alinea el texto a la izquierda dentro del bloque */
-  margin: 0 auto; /* Centra el contenido del ítem */
-  max-width: 80%; /* Limita el ancho del contenido para centrado */
-}
-
-.contacto-item p {
-  font-size: 14px;
-  color: #555;
-}
-
-.mapa {
-  max-width: 600px; /* Limita el ancho máximo del bloque */
-  margin: 0 auto; /* Centra el bloque */
-}
-
-.mapa iframe {
-  width: 100%;
-  height: 300px; /* Ajuste del tamaño del mapa */
-  border: 0;
-}
-
-.horario-atencion {
-  text-align: center;
-  margin-top: 30px;
-}
-
-.horario-atencion h3 {
-  margin-bottom: 10px;
-}
-
-.horario-atencion p {
-  margin: 5px 0;
-}
-
-/* Styles for WhatsApp Button */
-.whatsapp-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25D366; /* Color de fondo de WhatsApp */
-  color: white;
-  border-radius: 50%;
-  width: 80px; /* Tamaño del botón */
-  height: 80px; /* Tamaño del botón */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-decoration: none;
-  font-size: 32px; /* Tamaño del ícono */
-  z-index: 1000; /* Asegura que esté por encima de todo */
-  transition: background-color 0.3s;
-}
-
-.whatsapp-button:hover {
-  background-color: #128C7E; /* Color de fondo de WhatsApp en hover */
-}
-
-.whatsapp-button i {
-  margin: 0;
-}
-
 

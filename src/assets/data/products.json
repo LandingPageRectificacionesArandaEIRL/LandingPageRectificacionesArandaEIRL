@@ -1,0 +1,564 @@
+{
+  "products": [
+    {
+      "category": "culatas",
+      "items": [
+        {
+          "id": 1,
+          "name": "NT 350",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "ISX",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 3,
+          "name": "ISM",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 4,
+          "name": "VOLVO FH",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 5,
+          "name": "DETROIT 060",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 6,
+          "name": "N14 CELEC",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 7,
+          "name": "N14 CONVENCIONAL",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 8,
+          "name": "N14 CELEC PLUS",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 9,
+          "name": "NTC 315",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 10,
+          "name": "CAT C12",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 11,
+          "name": "ISB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 12,
+          "name": "QSB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 13,
+          "name": "VOLVO D12 A",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 14,
+          "name": "VOLVO D12 B",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 15,
+          "name": "6CT",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "motores",
+      "items": [
+        {
+          "id": 1,
+          "name": "NT 350",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "ISX",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 3,
+          "name": "ISM",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 4,
+          "name": "VOLVO FH",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 5,
+          "name": "DETROIT 060",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 6,
+          "name": "N14 CELEC",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 7,
+          "name": "N14 CONVENCIONAL",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 8,
+          "name": "N14 CELEC PLUS",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 9,
+          "name": "NTC 315",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 10,
+          "name": "CAT C12",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 11,
+          "name": "ISB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 12,
+          "name": "QSB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 13,
+          "name": "VOLVO D12 A",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 14,
+          "name": "VOLVO D12 B",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 15,
+          "name": "6CT",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "cigueñales",
+      "items": [
+        {
+          "id": 1,
+          "name": "NT 350",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "ISX",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 3,
+          "name": "ISM",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 4,
+          "name": "VOLVO FH",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 5,
+          "name": "DETROIT 060",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 6,
+          "name": "N14 CELEC",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 7,
+          "name": "N14 CONVENCIONAL",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 8,
+          "name": "N14 CELEC PLUS",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 9,
+          "name": "NTC 315",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 10,
+          "name": "CAT C12",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 11,
+          "name": "ISB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 12,
+          "name": "QSB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 13,
+          "name": "VOLVO D12 A",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 14,
+          "name": "VOLVO D12 B",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 15,
+          "name": "6CT",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "bielas",
+      "items": [
+        {
+          "id": 1,
+          "name": "NT 350",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "ISX",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 3,
+          "name": "ISM",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 4,
+          "name": "VOLVO FH",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 5,
+          "name": "DETROIT 060",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 6,
+          "name": "N14 CELEC",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 7,
+          "name": "N14 CONVENCIONAL",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 8,
+          "name": "N14 CELEC PLUS",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 9,
+          "name": "NTC 315",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 10,
+          "name": "CAT C12",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 11,
+          "name": "ISB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 12,
+          "name": "QSB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 13,
+          "name": "VOLVO D12 A",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 14,
+          "name": "VOLVO D12 B",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 15,
+          "name": "6CT",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "bielas",
+      "items": [
+        {
+          "id": 1,
+          "name": "NT 350",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "ISX",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 3,
+          "name": "ISM",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 4,
+          "name": "VOLVO FH",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 5,
+          "name": "DETROIT 060",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 6,
+          "name": "N14 CELEC",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 7,
+          "name": "N14 CONVENCIONAL",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 8,
+          "name": "N14 CELEC PLUS",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 9,
+          "name": "NTC 315",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 10,
+          "name": "CAT C12",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 11,
+          "name": "ISB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 12,
+          "name": "QSB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 13,
+          "name": "VOLVO D12 A",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 14,
+          "name": "VOLVO D12 B",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 15,
+          "name": "6CT",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "árbol-de-levas",
+      "items": [
+        {
+          "id": 1,
+          "name": "NT 350",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "ISX",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 3,
+          "name": "ISM",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 4,
+          "name": "VOLVO FH",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 5,
+          "name": "DETROIT 060",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 6,
+          "name": "N14 CELEC",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 7,
+          "name": "N14 CONVENCIONAL",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 8,
+          "name": "N14 CELEC PLUS",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 9,
+          "name": "NTC 315",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 10,
+          "name": "CAT C12",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 11,
+          "name": "ISB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 12,
+          "name": "QSB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 13,
+          "name": "VOLVO D12 A",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 14,
+          "name": "VOLVO D12 B",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 15,
+          "name": "6CT",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        }
+      ]
+    },
+    {
+      "category": "repuestos",
+      "items": [
+        {
+          "id": 1,
+          "name": "NT 350",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "ISX",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 3,
+          "name": "ISM",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 4,
+          "name": "VOLVO FH",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 5,
+          "name": "DETROIT 060",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 6,
+          "name": "N14 CELEC",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 7,
+          "name": "N14 CONVENCIONAL",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 8,
+          "name": "N14 CELEC PLUS",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 9,
+          "name": "NTC 315",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 10,
+          "name": "CAT C12",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 11,
+          "name": "ISB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 12,
+          "name": "QSB",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 13,
+          "name": "VOLVO D12 A",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 14,
+          "name": "VOLVO D12 B",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        },
+        {
+          "id": 15,
+          "name": "6CT",
+          "imageUrl": "assets/products/motores/NT350.jpeg"
+        }
+      ]
+    }
+  ]
+}

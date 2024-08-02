@@ -1,14 +1,3 @@
-/* General styles */
-body, html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-  height: 100%;
-  color: #03045E; /* Color de texto general */
-}
-
-/* Toolbar styles */
 mat-toolbar {
   display: flex;
   justify-content: space-between;
