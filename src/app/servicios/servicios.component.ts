@@ -45,7 +45,7 @@ export class ServiciosComponent {
       },
       culatas: {
         title: "Área de Culatas",
-        content: `<br>* Cambio de guías<br>
+        content: `<br>* Cambio de guías<br><br>
                   * Cambio de asientos de culata<br><br>
                   * Rectificado de asientos de culata<br><br>
                   * Cambio de precámaras<br><br>

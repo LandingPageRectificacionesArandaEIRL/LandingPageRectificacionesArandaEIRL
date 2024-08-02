@@ -14,8 +14,8 @@
 }
 
 .header-content h1 {
-  color: #E0F7FA; /* Color del texto del encabezado */
-  font-size: 3em; /* Tamaño de fuente inicial */
+  color: #1100fd; /* Color del texto del encabezado */
+  font-size: 6em; /* Tamaño de fuente inicial */
   margin: 0;
   line-height: 1.2; /* Espaciado entre líneas */
   font-weight: bold;
@@ -23,8 +23,8 @@
 }
 
 .header-content p {
-  color: #E0F7FA; /* Color del texto del párrafo */
-  font-size: 1.5em; /* Tamaño de fuente inicial */
+  color: #1100fd; /* Color del texto del párrafo */
+  font-size: 3em; /* Tamaño de fuente inicial */
   margin-top: 20px;
   font-weight: bold;
   word-break: break-word; /* Ajustar palabras largas */

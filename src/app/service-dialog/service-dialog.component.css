@@ -21,6 +21,7 @@
   color: white; /* Color del texto del título */
   border-bottom: 2px solid #ddd; /* Línea visible debajo del título */
   text-align: center; /* Centra el texto del título */
+  line-height: 1
 }
 
 /* Estilo para el contenido del diálogo */
