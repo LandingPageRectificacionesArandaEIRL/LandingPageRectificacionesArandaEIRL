@@ -85,7 +85,7 @@
 .soluciones-inteligentes button {
   margin-top: 10px;
   background-color: #0077B6; /* Color de fondo del botón */
-  color: #CAF0F8;
+  color: #ffffff;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -93,7 +93,7 @@
 }
 
 .soluciones-inteligentes button:hover {
-  background-color: #00B4D8;
+  background-color: #ffffff;
   color: #03045E;
 }
 

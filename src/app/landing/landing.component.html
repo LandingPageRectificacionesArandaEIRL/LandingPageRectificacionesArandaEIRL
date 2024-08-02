@@ -3,10 +3,10 @@
 <section class="header-content">
   <h1>RECTIFICACIONES ARANDA S&J</h1>
   <p>15 Años diseñando soluciones de Alta Calidad</p>
-  <button mat-raised-button color="accent">LEER MÁS</button>
+  <button mat-raised-button color="accent" onclick="document.getElementById('bienvenidos').scrollIntoView({ behavior: 'smooth' })">LEER MÁS</button>
 </section>
 
-<section class="soluciones-inteligentes">
+<section id="bienvenidos" class="soluciones-inteligentes">
   <h2>Bienvenidos a <span>RECTIFICACIONES ARANDA S&J</span></h2>
   <div class="content">
     <div class="unidad-negocio">
@@ -16,7 +16,7 @@
           y venta de repuestos de maquinaria pesada, con un equipo de profesionales actualizados
           que ofrecen servicios de alta calidad.</p>
       </ul>
-      <button mat-raised-button color="accent">LEER MÁS</button>
+      <button mat-raised-button color="accent" (click)="redirectToAboutUs()">LEER MÁS</button>
     </div>
     <div class="servicios-logisticos">
       <h3>TENEMOS</h3>
@@ -26,7 +26,7 @@
           de experiencia, destacándose por su precisión, calidad y garantía, satisfaciendo las necesidades
           de las industrias automotriz, agrícola, marítima y minera.</p>
       </ul>
-      <button mat-raised-button color="accent">LEER MÁS</button>
+      <button mat-raised-button color="accent" (click)="redirectToService()">LEER MÁS</button>
     </div>
   </div>
 </section>

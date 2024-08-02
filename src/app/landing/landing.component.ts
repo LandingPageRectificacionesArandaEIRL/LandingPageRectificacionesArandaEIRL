@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {RouterLink, RouterOutlet} from "@angular/router";
+import {Router, RouterLink, RouterOutlet} from "@angular/router";
 import {NgOptimizedImage} from "@angular/common";
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatAnchor, MatButton} from "@angular/material/button";
@@ -27,5 +27,17 @@ import {WhatsappButtonComponent} from "../whatsapp-button/whatsapp-button.compon
   styleUrl: './landing.component.css'
 })
 export class LandingComponent {
+  constructor(private router: Router) {
+  }
 
+  redirectToAboutUs() {
+    this.router.navigate(['/about-us']).then(() => {
+      window.scrollTo(0, 0);
+    });
+  }
+  redirectToService() {
+    this.router.navigate(['/services']).then(() => {
+      window.scrollTo(0, 0);
+    });
+  }
 }
