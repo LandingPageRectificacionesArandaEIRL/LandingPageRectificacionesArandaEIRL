@@ -15,7 +15,7 @@
 
 .header-content h1 {
   color: #1100fd; /* Color del texto del encabezado */
-  font-size: 6em; /* Tamaño de fuente inicial */
+  font-size: 5em; /* Tamaño de fuente inicial */
   margin: 0;
   line-height: 1.2; /* Espaciado entre líneas */
   font-weight: bold;
