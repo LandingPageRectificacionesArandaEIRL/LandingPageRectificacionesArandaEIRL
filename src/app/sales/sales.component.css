@@ -37,7 +37,6 @@ body, html {
   justify-content: center;
   padding: 40px;
   color: white;
-  font-size: 1.5em;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   background-clip: padding-box;
@@ -122,4 +121,42 @@ body, html {
   position: relative;
 }
 
+/* Responsive Design for Phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .productos {
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas en lugar de seis */
+    grid-template-rows: repeat(6, auto); /* Ajuste de filas automáticas para acomodar el contenido */
+  }
+
+  .producto {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido */
+    text-align: center; /* Centra el texto */
+  }
+
+  .producto h3 {
+    font-size: 1.2em; /* Tamaño de fuente más pequeño para h3 */
+    margin: 0; /* Elimina el margen por defecto del h3 */
+  }
+
+
+  .producto::before {
+    filter: brightness(0.6); /* Ajusta el brillo para mejor contraste */
+  }
+
+  .producto.culatas, .producto.motores {
+    grid-column: span 2; /* Ocupan toda la fila en pantallas más pequeñas */
+    grid-row: span 1;
+  }
+
+  .producto.ciguenales, .producto.bielas, .producto.arbol-de-levas {
+    grid-column: span 2; /* Ocupan dos columnas en lugar de tres */
+    grid-row: span 1;
+  }
+
+  .producto.repuestos-generales {
+    grid-column: span 2; /* Ocupa toda la fila en pantallas más pequeñas */
+  }
+}
 

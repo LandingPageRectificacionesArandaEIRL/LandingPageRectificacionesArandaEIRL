@@ -1,16 +1,16 @@
 <mat-toolbar color="primary">
   <div class="logo">
-    <img src="/assets/header/logo.png" alt="SCE Logo" class="logo-img">
+    <img src="/assets/header/logo.png" alt="SCE Logo" class="logo-img" routerLink="/">
   </div>
   <span class="spacer"></span>
   <nav class="nav-links">
-    <a mat-button routerLink="/">INICIO</a>
-    <a mat-button routerLink="/about-us">QUIÉNES SOMOS</a>
-    <a mat-button routerLink="/services">SERVICIOS</a>
-    <a mat-button routerLink="/sales">VENTAS</a>
-    <a mat-button routerLink="/contact-us">CONTÁCTANOS</a>
+    <a mat-button routerLink="/" (click)="closeMenu()">INICIO</a>
+    <a mat-button routerLink="/about-us" (click)="closeMenu()">QUIÉNES SOMOS</a>
+    <a mat-button routerLink="/services" (click)="closeMenu()">SERVICIOS</a>
+    <a mat-button routerLink="/sales" (click)="closeMenu()">VENTAS</a>
+    <a mat-button routerLink="/contact-us" (click)="closeMenu()">CONTÁCTANOS</a>
   </nav>
-  <button mat-icon-button class="menu-icon" (click)="toggleMenu()">
+  <button mat-icon-button class="menu-icon" (click)="toggleMenu($event)">
     <mat-icon>menu</mat-icon>
   </button>
 </mat-toolbar>

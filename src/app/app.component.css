@@ -1,0 +1,30 @@
+/* Asegúrate de que el HTML y el body ocupen toda la altura de la ventana */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Contenedor principal que usa flexbox para alinear el contenido */
+.container {
+  min-height: 100vh; /* Asegura que el contenedor principal ocupe al menos toda la altura de la ventana */
+  display: flex;
+  flex-direction: column;
+}
+
+/* El contenido principal ocupa el espacio disponible antes del footer */
+.main-content {
+  flex: 1; /* Hace que el contenido principal crezca para llenar el espacio disponible */
+}
+
+/* Estilos para el footer */
+app-footer {
+  background-color: #03045E;
+  color: #CAF0F8;
+  text-align: center;
+  padding: 20px 0;
+  flex-shrink: 0; /* Previene que el footer se reduzca */
+}
+
+app-footer p {
+  margin: 0;
+}

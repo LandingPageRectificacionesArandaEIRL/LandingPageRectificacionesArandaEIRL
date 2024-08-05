@@ -29,7 +29,7 @@ mat-toolbar {
 }
 
 /* Mobile styles */
-@media (max-width: 768px) {
+@media (max-width: 882px) {
   .nav-links {
     display: none; /* Hide nav links on small screens */
     width: 100%; /* Ensure full width */
