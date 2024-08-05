@@ -28,6 +28,7 @@ body, html {
 
 .product-header {
   display: flex;
+  flex-direction: column; /* Cambia la dirección a columna en pantallas pequeñas */
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
@@ -35,6 +36,7 @@ body, html {
   padding: 15px;
   border-radius: 5px;
   color: #03045E; /* Color del texto */
+  gap: 10px; /* Añade espacio entre los elementos */
 }
 
 .product-header h1 {
@@ -45,7 +47,7 @@ body, html {
   color: #023E8A; /* Color del título para destacar */
 }
 
-.product-header button {
+.product-header .catalog-button {
   padding: 10px 20px;
   background-color: #007bff;
   color: white;
@@ -53,9 +55,13 @@ body, html {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-size: 1em;
+  text-align: center;
+  width: 100%;
+  max-width: 300px; /* Limita el ancho del botón en pantallas grandes */
 }
 
-.product-header button:hover {
+.product-header .catalog-button:hover {
   background-color: #0056b3;
 }
 
@@ -67,7 +73,10 @@ body, html {
 }
 
 .product-card {
-  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
@@ -83,8 +92,8 @@ body, html {
 
 .product-card img {
   width: 100%;
-  height: auto;
-  border-bottom: 1px solid #ddd;
+  height: 200px; /* Altura fija para las imágenes */
+  object-fit: cover; /* Las imágenes se escalarán y recortarán para llenar el contenedor */
 }
 
 .product-card h3 {
@@ -92,4 +101,17 @@ body, html {
   font-size: 1.2em;
   margin: 0;
   color: #333;
+  background-color: #E0F7FA; /* Fondo celeste para la barra de separación */
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .product-header {
+    flex-direction: row;
+  }
+
+  .product-header .catalog-button {
+    width: auto;
+  }
 }

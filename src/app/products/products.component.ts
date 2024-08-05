@@ -24,9 +24,11 @@ export class ProductsComponent implements OnInit{
     private route: ActivatedRoute,
     private productService: ProductService
   ) { }
-  downloadCatalog() {
-    // Aquí puedes poner la lógica para descargar el catálogo.
-    window.open('path/to/catalog.pdf', '_blank');
+  downloadCatalog(): void {
+    if (this.category) {
+      const catalogUrl = `assets/catalogs/${this.category}-catalog.pdf`;
+      window.open(catalogUrl, '_blank');
+    }
   }
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {

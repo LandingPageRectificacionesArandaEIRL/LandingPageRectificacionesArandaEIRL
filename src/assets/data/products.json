@@ -5,78 +5,78 @@
       "items": [
         {
           "id": 1,
-          "name": "NT 350",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CAT C12",
+          "imageUrl": "assets/products/culatas/CAT C12.png"
         },
         {
           "id": 2,
-          "name": "ISX",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 4BT",
+          "imageUrl": "assets/products/culatas/CUMMINS 4BT.png"
         },
         {
           "id": 3,
-          "name": "ISM",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 6BT",
+          "imageUrl": "assets/products/culatas/CUMMINS 6BT.jpeg"
         },
         {
           "id": 4,
-          "name": "VOLVO FH",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 6CT",
+          "imageUrl": "assets/products/culatas/CUMMINS 6CT.jpg"
         },
         {
           "id": 5,
-          "name": "DETROIT 060",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISB",
+          "imageUrl": "assets/products/culatas/CUMMINS ISB.png"
         },
         {
           "id": 6,
-          "name": "N14 CELEC",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISL",
+          "imageUrl": "assets/products/culatas/CUMMINS ISL.png"
         },
         {
           "id": 7,
-          "name": "N14 CONVENCIONAL",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISX",
+          "imageUrl": "assets/products/culatas/CUMMINS ISX.png"
         },
         {
           "id": 8,
-          "name": "N14 CELEC PLUS",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS KTA 19",
+          "imageUrl": "assets/products/culatas/CUMMINS KTA 19.png"
         },
         {
           "id": 9,
-          "name": "NTC 315",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS QSB",
+          "imageUrl": "assets/products/culatas/CUMMINS QSB.jpg"
         },
         {
           "id": 10,
-          "name": "CAT C12",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "DETROIT 060",
+          "imageUrl": "assets/products/culatas/DETROIT 060.jpeg"
         },
         {
           "id": 11,
-          "name": "ISB",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "MACK P8",
+          "imageUrl": "assets/products/culatas/MACK P8.jpg"
         },
         {
           "id": 12,
-          "name": "QSB",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "N14 CELECT / CELECT PLUS / CONVENCIONAL",
+          "imageUrl": "assets/products/culatas/N14_Celect_ Celect plus_ Convencional.jpeg"
         },
         {
           "id": 13,
-          "name": "VOLVO D12 A",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO D12 A / B",
+          "imageUrl": "assets/products/culatas/VOLVO D12 A Y B.png"
         },
         {
           "id": 14,
-          "name": "VOLVO D12 B",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO D13",
+          "imageUrl": "assets/products/culatas/VOLVO D13.jpg"
         },
         {
           "id": 15,
-          "name": "6CT",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO FH",
+          "imageUrl": "assets/products/culatas/VOLVO FH.png"
         }
       ]
     },
@@ -85,78 +85,78 @@
       "items": [
         {
           "id": 1,
-          "name": "NT 350",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CAT C12",
+          "imageUrl": "assets/products/motores/CAT C12.jpg"
         },
         {
           "id": 2,
-          "name": "ISX",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 4BT",
+          "imageUrl": "assets/products/motores/CUMMINS 4BT.jpg"
         },
         {
           "id": 3,
-          "name": "ISM",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 6BT",
+          "imageUrl": "assets/products/motores/CUMMINS 6BT.jpg"
         },
         {
           "id": 4,
-          "name": "VOLVO FH",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 6CT",
+          "imageUrl": "assets/products/motores/CUMMINS 6CT.png"
         },
         {
           "id": 5,
-          "name": "DETROIT 060",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISB",
+          "imageUrl": "assets/products/motores/CUMMINS ISB.jpg"
         },
         {
           "id": 6,
-          "name": "N14 CELEC",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISL",
+          "imageUrl": "assets/products/motores/CUMMINS ISL.jpg"
         },
         {
           "id": 7,
-          "name": "N14 CONVENCIONAL",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISX",
+          "imageUrl": "assets/products/motores/CUMMINS ISX.png"
         },
         {
           "id": 8,
-          "name": "N14 CELEC PLUS",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS KTA 19",
+          "imageUrl": "assets/products/motores/CUMMINS KTA 19.png"
         },
         {
           "id": 9,
-          "name": "NTC 315",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS N14",
+          "imageUrl": "assets/products/motores/CUMMINS N14.png"
         },
         {
           "id": 10,
-          "name": "CAT C12",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS QSB",
+          "imageUrl": "assets/products/motores/CUMMINS QSB.png"
         },
         {
           "id": 11,
-          "name": "ISB",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "DETROIT 060",
+          "imageUrl": "assets/products/motores/DETROIT 060.jpg"
         },
         {
           "id": 12,
-          "name": "QSB",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "MACK MP8",
+          "imageUrl": "assets/products/motores/MACK MP8.png"
         },
         {
           "id": 13,
-          "name": "VOLVO D12 A",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO D12 A / B",
+          "imageUrl": "assets/products/motores/VOLVO D12 A y B.png"
         },
         {
           "id": 14,
-          "name": "VOLVO D12 B",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO D13",
+          "imageUrl": "assets/products/motores/VOLVO D13.png"
         },
         {
           "id": 15,
-          "name": "6CT",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO FH",
+          "imageUrl": "assets/products/motores/VOLVO FH.png"
         }
       ]
     },
@@ -165,78 +165,78 @@
       "items": [
         {
           "id": 1,
-          "name": "NT 350",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CAT C12",
+          "imageUrl": "assets/products/cigueñales/CAT C12.jpg"
         },
         {
           "id": 2,
-          "name": "ISX",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 4BT",
+          "imageUrl": "assets/products/cigueñales/CUMMINS 4BT.jpeg"
         },
         {
           "id": 3,
-          "name": "ISM",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 6BT",
+          "imageUrl": "assets/products/cigueñales/CUMMINS 6BT.png"
         },
         {
           "id": 4,
-          "name": "VOLVO FH",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 6CT",
+          "imageUrl": "assets/products/cigueñales/CUMMINS 6CT.png"
         },
         {
           "id": 5,
-          "name": "DETROIT 060",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISB",
+          "imageUrl": "assets/products/cigueñales/CUMMINS ISB.jpg"
         },
         {
           "id": 6,
-          "name": "N14 CELEC",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISL",
+          "imageUrl": "assets/products/cigueñales/CUMMINS ISL.jpg"
         },
         {
           "id": 7,
-          "name": "N14 CONVENCIONAL",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISX",
+          "imageUrl": "assets/products/cigueñales/CUMMINS ISX.png"
         },
         {
           "id": 8,
-          "name": "N14 CELEC PLUS",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS KTA 19",
+          "imageUrl": "assets/products/cigueñales/CUMMINS KTA 19.jpg"
         },
         {
           "id": 9,
-          "name": "NTC 315",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS N14",
+          "imageUrl": "assets/products/cigueñales/CUMMINS N14.png"
         },
         {
           "id": 10,
-          "name": "CAT C12",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS QSB",
+          "imageUrl": "assets/products/cigueñales/CUMMINS QSB.png"
         },
         {
           "id": 11,
-          "name": "ISB",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "DETROIT 060",
+          "imageUrl": "assets/products/cigueñales/DETROIT 060.jpg"
         },
         {
           "id": 12,
-          "name": "QSB",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "MACK MP8",
+          "imageUrl": "assets/products/cigueñales/MACK MP8.jpg"
         },
         {
           "id": 13,
-          "name": "VOLVO D12 A",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO D12 A / B",
+          "imageUrl": "assets/products/cigueñales/VOLVO D12 A y B.jpg"
         },
         {
           "id": 14,
-          "name": "VOLVO D12 B",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO D13",
+          "imageUrl": "assets/products/cigueñales/VOLVO D13.jpg"
         },
         {
           "id": 15,
-          "name": "6CT",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO FH",
+          "imageUrl": "assets/products/cigueñales/VOLVO FH.png"
         }
       ]
     },
@@ -245,158 +245,78 @@
       "items": [
         {
           "id": 1,
-          "name": "NT 350",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CAT C12",
+          "imageUrl": "assets/products/bielas/CAT C12.jpeg"
         },
         {
           "id": 2,
-          "name": "ISX",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 4BT",
+          "imageUrl": "assets/products/bielas/CUMMINS 4BT.jpg"
         },
         {
           "id": 3,
-          "name": "ISM",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 6BT",
+          "imageUrl": "assets/products/bielas/CUMMINS 6BT.jpg"
         },
         {
           "id": 4,
-          "name": "VOLVO FH",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 6CT",
+          "imageUrl": "assets/products/bielas/CUMMINS 6CT.jpeg"
         },
         {
           "id": 5,
-          "name": "DETROIT 060",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISB",
+          "imageUrl": "assets/products/bielas/CUMMINS ISB.jpg"
         },
         {
           "id": 6,
-          "name": "N14 CELEC",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISL",
+          "imageUrl": "assets/products/bielas/CUMMINS ISL.jpg"
         },
         {
           "id": 7,
-          "name": "N14 CONVENCIONAL",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISX",
+          "imageUrl": "assets/products/bielas/CUMMINS ISX.jpg"
         },
         {
           "id": 8,
-          "name": "N14 CELEC PLUS",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS KTA 19",
+          "imageUrl": "assets/products/bielas/CUMMINS KTA 19.jpg"
         },
         {
           "id": 9,
-          "name": "NTC 315",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS N14",
+          "imageUrl": "assets/products/bielas/CUMMINS N14.jpg"
         },
         {
           "id": 10,
-          "name": "CAT C12",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS QSB",
+          "imageUrl": "assets/products/bielas/CUMMINS QSB.jpg"
         },
         {
           "id": 11,
-          "name": "ISB",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "DETROIT 060",
+          "imageUrl": "assets/products/bielas/DETROIT 060.png"
         },
         {
           "id": 12,
-          "name": "QSB",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "MACK MP8",
+          "imageUrl": "assets/products/bielas/MACK MP8.jpg"
         },
         {
           "id": 13,
-          "name": "VOLVO D12 A",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO D12 A / B",
+          "imageUrl": "assets/products/bielas/VOLVO D12 A Y B.jpg"
         },
         {
           "id": 14,
-          "name": "VOLVO D12 B",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO D13",
+          "imageUrl": "assets/products/bielas/VOLVO D13.jpeg"
         },
         {
           "id": 15,
-          "name": "6CT",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        }
-      ]
-    },
-    {
-      "category": "bielas",
-      "items": [
-        {
-          "id": 1,
-          "name": "NT 350",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 2,
-          "name": "ISX",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 3,
-          "name": "ISM",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 4,
           "name": "VOLVO FH",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 5,
-          "name": "DETROIT 060",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 6,
-          "name": "N14 CELEC",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 7,
-          "name": "N14 CONVENCIONAL",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 8,
-          "name": "N14 CELEC PLUS",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 9,
-          "name": "NTC 315",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 10,
-          "name": "CAT C12",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 11,
-          "name": "ISB",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 12,
-          "name": "QSB",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 13,
-          "name": "VOLVO D12 A",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 14,
-          "name": "VOLVO D12 B",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
-        },
-        {
-          "id": 15,
-          "name": "6CT",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "imageUrl": "assets/products/bielas/VOLVO FH.png"
         }
       ]
     },
@@ -405,78 +325,78 @@
       "items": [
         {
           "id": 1,
-          "name": "NT 350",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CAT C12",
+          "imageUrl": "assets/products/árbol-de-levas/CAT C12.jpg"
         },
         {
           "id": 2,
-          "name": "ISX",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 4BT",
+          "imageUrl": "assets/products/árbol-de-levas/CUMMINS 4BT.jpg"
         },
         {
           "id": 3,
-          "name": "ISM",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 6BT",
+          "imageUrl": "assets/products/árbol-de-levas/CUMMINS 6BT.jpg"
         },
         {
           "id": 4,
-          "name": "VOLVO FH",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS 6CT",
+          "imageUrl": "assets/products/árbol-de-levas/CUMMINS 6CT.jpg"
         },
         {
           "id": 5,
-          "name": "DETROIT 060",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISB",
+          "imageUrl": "assets/products/árbol-de-levas/CUMMINS ISB.jpg"
         },
         {
           "id": 6,
-          "name": "N14 CELEC",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISL",
+          "imageUrl": "assets/products/árbol-de-levas/CUMMINS ISL.jpeg"
         },
         {
           "id": 7,
-          "name": "N14 CONVENCIONAL",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS ISX",
+          "imageUrl": "assets/products/árbol-de-levas/CUMMINS ISX.jpg"
         },
         {
           "id": 8,
-          "name": "N14 CELEC PLUS",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS KTA 19",
+          "imageUrl": "assets/products/árbol-de-levas/CUMMINS KTA 19.jpg"
         },
         {
           "id": 9,
-          "name": "NTC 315",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS N14",
+          "imageUrl": "assets/products/árbol-de-levas/CUMMINS N14.jpg"
         },
         {
           "id": 10,
-          "name": "CAT C12",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "CUMMINS QSB",
+          "imageUrl": "assets/products/árbol-de-levas/CUMMINS QSB.png"
         },
         {
           "id": 11,
-          "name": "ISB",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "DETROIT 060",
+          "imageUrl": "assets/products/árbol-de-levas/DETROIT 060.jpg"
         },
         {
           "id": 12,
-          "name": "QSB",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "MACK MP8",
+          "imageUrl": "assets/products/árbol-de-levas/MACK MP8.jpg"
         },
         {
           "id": 13,
-          "name": "VOLVO D12 A",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO D12 A / B",
+          "imageUrl": "assets/products/árbol-de-levas/VOLVO D12 A y B.png"
         },
         {
           "id": 14,
-          "name": "VOLVO D12 B",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO D13",
+          "imageUrl": "assets/products/árbol-de-levas/VOLVO D13.jpg"
         },
         {
           "id": 15,
-          "name": "6CT",
-          "imageUrl": "assets/products/motores/NT350.jpeg"
+          "name": "VOLVO FH",
+          "imageUrl": "assets/products/árbol-de-levas/VOLVO FH.png"
         }
       ]
     },
