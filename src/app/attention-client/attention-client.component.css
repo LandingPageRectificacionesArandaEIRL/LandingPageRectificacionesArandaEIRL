@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Asegura que el padding y el border no afecten el ancho del elemento */
+  box-sizing: border-box;
 }
 
 body, html {
@@ -14,12 +14,11 @@ body, html {
   color: #03045E;
 }
 
-
 .atencion-cliente {
   padding: 80px 20px;
   background-color: #E0F7FA;
   color: #03045E;
-  width: 100%; /* Asegura que ocupe todo el ancho de la pantalla */
+  width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -35,7 +34,7 @@ body, html {
 
 .contacto-consulta {
   display: flex;
-  justify-content: space-between; /* Espacio entre los bloques */
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -43,23 +42,23 @@ body, html {
 .contactos, .mapa {
   flex: 1;
   min-width: 300px;
-  text-align: center; /* Centra el contenido dentro de los bloques */
+  text-align: center;
 }
 
 .contactos {
-  max-width: 600px; /* Limita el ancho máximo del bloque */
-  margin: 0 auto; /* Centra el bloque */
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .contactos h3 {
-  text-align: center; /* Centra el título dentro del bloque */
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .contacto-item {
-  text-align: left; /* Alinea el texto a la izquierda dentro del bloque */
-  margin: 0 auto; /* Centra el contenido del ítem */
-  max-width: 80%; /* Limita el ancho del contenido para centrado */
+  text-align: center; /* Alinea el contenido del ítem al centro */
+  margin: 0 auto;
+  max-width: 80%;
 }
 
 .contacto-item p {
@@ -67,14 +66,39 @@ body, html {
   color: #555;
 }
 
+/* Estilo de los botones de redes sociales */
+.social-buttons {
+  display: flex;
+  justify-content: center; /* Centra los botones */
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.social-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.social-button.facebook {
+  background-color: #3b5998;
+}
+
+.social-button.tiktok {
+  background-color: #010101;
+}
+
 .mapa {
-  max-width: 600px; /* Limita el ancho máximo del bloque */
-  margin: 0 auto; /* Centra el bloque */
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .mapa iframe {
   width: 100%;
-  height: 300px; /* Ajuste del tamaño del mapa */
+  height: 300px;
   border: 0;
 }
 
