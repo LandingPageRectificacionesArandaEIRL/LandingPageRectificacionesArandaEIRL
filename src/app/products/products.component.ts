@@ -30,6 +30,10 @@ export class ProductsComponent implements OnInit{
       window.open(catalogUrl, '_blank');
     }
   }
+  redirectToCatalog() {
+    window.location.href = 'https://drive.google.com/drive/folders/1xtECVgBhB4e5OB3unmbl8M-5Va92vmpY';
+  }
+
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
       this.category = params.get('category');

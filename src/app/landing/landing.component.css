@@ -3,12 +3,12 @@
   padding: 100px 20px;
   z-index: 10;
   position: relative;
-  background: url('../../assets/landing/landing3.webp') no-repeat center center;
+  background: url('../../assets/landing/landing9.webp') no-repeat center center;
   background-size: cover;
   height: 100vh; /* Altura completa del viewport */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start; /* Alineación hacia arriba */
   align-items: center;
   font-family: 'Caudex', serif; /* Aplicar la fuente Caudex */
 }
@@ -20,6 +20,8 @@
   line-height: 1.2; /* Espaciado entre líneas */
   font-weight: bold;
   word-break: break-word; /* Ajustar palabras largas */
+  -webkit-text-stroke: 1px #000000; /* Borde negro de 3px alrededor del texto */
+  text-shadow: none; /* Deshabilitar sombra de texto */
 }
 
 .header-content p {
@@ -28,6 +30,8 @@
   margin-top: 20px;
   font-weight: bold;
   word-break: break-word; /* Ajustar palabras largas */
+  -webkit-text-stroke: 2px #000000; /* Borde negro de 3px alrededor del texto */
+  text-shadow: none; /* Deshabilitar sombra de texto */
 }
 
 .header-content button {
