@@ -87,12 +87,13 @@
 
 /* Estilos para la sección de valores */
 .valores {
-  background: #E0F7FA;
-  color: #03045E;
-  padding: 20px;
+  background: url('/assets/service/servicios.png') no-repeat center center;
+  background-size: cover;
+  padding: 40px 20px;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #03045E;
 }
 
 .valores-fila {
