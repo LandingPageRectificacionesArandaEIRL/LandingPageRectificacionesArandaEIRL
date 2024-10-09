@@ -79,32 +79,32 @@ body, html {
 .producto.culatas {
   grid-column: 1 / 4; /* Ocupa las primeras tres columnas */
   grid-row: 1 / 2;
-  background-image: url('../../assets/sales/culatas.jpg');
+  background-image: url('../../assets/sales/culatas.webp');
 }
 
 .producto.motores {
   grid-column: 4 / 7; /* Ocupa las últimas tres columnas */
   grid-row: 1 / 2;
-  background-image: url('../../assets/sales/motores.jpeg');
+  background-image: url('../../assets/sales/motores.webp');
 }
 
 /* Segunda fila: Cigüeñales, Bielas y Arbol de Levas */
 .producto.ciguenales {
   grid-column: 1 / 3; /* Ocupa dos columnas */
   grid-row: 2 / 3;
-  background-image: url('../../assets/sales/cigueñal.jpeg');
+  background-image: url('../../assets/sales/cigueñal.webp');
 }
 
 .producto.bielas {
   grid-column: 3 / 5; /* Ocupa dos columnas */
   grid-row: 2 / 3;
-  background-image: url('../../assets/sales/bielas.jpg');
+  background-image: url('../../assets/sales/bielas.webp');
 }
 
 .producto.arbol-de-levas {
   grid-column: 5 / 7; /* Ocupa dos columnas */
   grid-row: 2 / 3;
-  background-image: url('../../assets/sales/eje-de-levas.jpeg');
+  background-image: url('../../assets/sales/eje-de-levas.webp');
 }
 
 /* Tercera fila: Repuestos Generales */
@@ -114,7 +114,7 @@ body, html {
   background-image:
     linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), /* Degradado negro a transparente */
     linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), /* Degradado negro a transparente */
-    url('../../assets/sales/repuestos.jpg'); /* Imagen de fondo */
+    url('../../assets/sales/repuestos.webp'); /* Imagen de fondo */
   background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Asegura que la imagen no se repita */
